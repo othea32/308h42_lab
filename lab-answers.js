@@ -59,3 +59,10 @@ console.log(wolfy)
 // wild wild life answered
 
 // Yell at the Ninja Turtles
+// 9. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+// 10. Use a for loop to call .toUpperCase() on each of them and print out the result.
+for (let i = 0; i < ninjaTurtles.length; i++) {
+  console.log(ninjaTurtles[i].toUpperCase())
+}
+// Yell at the Ninja Turtles Answered
