@@ -98,5 +98,20 @@ const favMovies2 = favMovies.slice(8, 16)
 console.log(favMovies2)
 // 20. store the value of your slice in a variable, console.log it
 console.log(favMovies2)
-// Methods, Revisited Answered
+// Methods Revisited Answered
+
+// Where is Waldo
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+// 21. Remove Eggbert (hint look at the slice/splice method(s))
+whereIsWaldo.splice(1, 1)
+console.log(whereIsWaldo)
+// 22. Change "Neff" to "No One"
+whereIsWaldo[1][2] = 'No One'
+console.log(whereIsWaldo)
+// 23. Access and console.log "Waldo"
+console.log(whereIsWaldo[2][1][1])
+// Where is Waldo Answered
+
 
