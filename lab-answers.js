@@ -5,4 +5,6 @@ console.log('Lab Answers');
 for (let i = 1; i <= 20; i++) {
  console.log(i)
 }
-// SOLVED
+// 
+
+// Get Even
