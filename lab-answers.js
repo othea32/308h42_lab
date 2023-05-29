@@ -66,3 +66,37 @@ for (let i = 0; i < ninjaTurtles.length; i++) {
   console.log(ninjaTurtles[i].toUpperCase())
 }
 // Yell at the Ninja Turtles Answered
+
+// Methods, Revisited
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+// 11. Console log: the index of Titanic
+console.log(favMovies.indexOf('Titanic'))
+// 12. Use the .sort method.
+favMovies.sort()
+console.log(favMovies)
+// 13. Use the method pop
+favMovies.pop()
+console.log(favMovies)
+// 14. Push "Guardians of the Galaxy"
+favMovies.push('Guardians of the Galaxy')
+console.log(favMovies)
+// 15. Reverse the array
+favMovies.reverse()
+console.log(favMovies)
+// 16. Use the shift 
+favMovies.shift()
+console.log(favMovies)
+// 17. Unshift - what does it return?
+favMovies.unshift()
+console.log(favMovies)
+// 18. splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained").
+favMovies.splice(3, 1, 'Avatar')
+console.log(favMovies)
+// 19. slice the last half of the array (challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it)
+const favMovies2 = favMovies.slice(8, 16)
+console.log(favMovies2)
+// 20. store the value of your slice in a variable, console.log it
+console.log(favMovies2)
+// Methods, Revisited Answered
+
